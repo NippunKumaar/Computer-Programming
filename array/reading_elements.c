@@ -9,9 +9,10 @@ int main()
       scanf("%d", &a[i]);     
    }
    printf("The array values are:\n");
+   printf("[ ");
    for(i=0;i<5;i++) {         //Loop for printing all the array elements
-      printf("%d", a[i]);
+      printf("%d ", a[i]);
    }
-   printf("\n");
+   printf("]\n");
 
 }

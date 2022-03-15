@@ -8,7 +8,7 @@ int main()
    for(i=0;i<5;i++) {         //Loop for taking all the array elements
       scanf("%d", &a[i]);     
    }
-   printf("The array values are:\n")
+   printf("The array values are:\n");
    for(i=0;i<5;i++) {         //Loop for printing all the array elements
       printf("%d", a[i]);
    }

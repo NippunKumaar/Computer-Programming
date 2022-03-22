@@ -10,7 +10,7 @@ for(i=0;i<2;i++) {    //traversing 2D array
  for(j=0;j<3;j++) {    
    printf("Enter arr[%d] [%d]:",i,j);
    scanf("%d",&arr[i][j]);   
-   printf("\n"); 
+//   printf("\n"); 
  }//end of j    
 }//end of i    
 

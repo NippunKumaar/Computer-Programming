@@ -3,7 +3,7 @@
 int main()
 {
 	float y=98.7654;
-	printf("%f\n",y);
+	printf("%lf\n",y);
 	printf("%9.4f\n",y);
 	printf("%9.2f\n",y);
 	printf("%-9.2f\n",y);

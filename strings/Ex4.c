@@ -41,7 +41,9 @@ int main()
 		printf("string3 and string2 are not equal\n");
 
 // Concatinating string1 and string3 and store the result in string1 using strcat() function
-	strcat(string1, string3);
+	strcat(string1, 
+		aanik
+		);
 	printf("Data in string1 after contcatination:");
 	puts(string1);
 }

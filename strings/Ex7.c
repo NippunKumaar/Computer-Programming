@@ -18,6 +18,7 @@ int main()
 	}
 
 //printing the name list
+	printf("The names are:\n");
 	for(i=0;i<count;i++) {
 		puts(names[i]);
 	}

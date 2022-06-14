@@ -26,6 +26,7 @@ int main()
     //Error: Since the value is constant 
 //    *p_to_const = 30; //Uncomment this line to see the error
     printf("Value of num2 is %d\n", *p_to_const);
+    //*p_to_const = 100; // Error: Ucomment to view the error
     p_to_const = &num1;  // Works: Since pointer is not constant
     num1 = 50; //Works, // You can still modify the pointed value directly 
 
@@ -35,7 +36,7 @@ int main()
     // Error // Modification of value pointed by pointer is also not allowed // Re-assignment of value to ptr 
     //const_p_to_const = &num3; //uncomment to see the error
     //Error: Modification of value pointed by a pointer to constant
-    //const_p_to_const = 50;  //uncomment to see the error
+    //*const_p_to_const = 50;  //uncomment to see the error
     num3 = 100;
     printf("Value of num3 is %d\n",*const_p_to_const );
 }

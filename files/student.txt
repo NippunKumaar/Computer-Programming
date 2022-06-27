@@ -1,0 +1,9 @@
+
+Name: Ram 
+Marks=98 
+
+Name: Sita 
+Marks=100 
+
+Name: Rahul 
+Marks=99 
